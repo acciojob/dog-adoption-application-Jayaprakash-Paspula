@@ -10,7 +10,26 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form>
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" placeholder="Name"><br><br>
+	<label for="mobile">Phone Number:</label>
+	<input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+	<label for="address">Address:</label>
+	<input type="text" id="address" name="address" placeholder="Address"><br><br>
+	<label for="checkbox">Have you ever lived with a Dog before?</label>
+	<input type="checkbox" id="checkbox" name="checkbox"><br><br>
+	<label>Please select your preferred breeds
+	<input id="multiSelect" data-dropdown="true"/>
+	</label>
+	<select  id="multiSelect" multiple>
+		<option value="Lab">Lab</option>
+		<option value="Sitzu">Sitzu</option>
+		<option value="Golden retriever">Golden retriever</option>
+		<option value="Chow-chow">Chow-Chow</option>
+		<option value="Beegal">Beegal</option>
+		<input type="submit" id="submit" value="submit">
+</form>
 </body>
 
 </html>
